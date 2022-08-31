@@ -1,0 +1,6 @@
+idade = int(input("informe sua idade: "))
+print(idade)
+print(type(idade))
+idadetexto = str(idade)
+print(idadetexto)
+print(type(idadetexto))

@@ -1,2 +1,4 @@
-nome = 'Valter'
+#nome = 'Valter'
+
+nome = input('informe seu nome: ') 
 print(nome)
