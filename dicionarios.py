@@ -8,8 +8,19 @@ print(len(numero))
 print(numero.get('cecliterio'))
 print(numero.get(6))
 
-fruta = input('Informe o indice da fruta: ')
+numero['cartago'] = 'melancia'
+
+
+print(numero)
+
+fruta = input('Informe o indice da fruta que procura: ')
 if(fruta == None):
     print('Inexistente')
 else:
     print('A fruta é: '+ str(numero[fruta]))
+
+retirar = input('Digite a fruta que quer excluir:')
+print(numero.pop(fruta, 'inexistente'))
+print(numero)
+    
+
